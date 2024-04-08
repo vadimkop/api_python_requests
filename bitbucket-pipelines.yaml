@@ -1,0 +1,27 @@
+image: python:3.12
+
+definitions:
+
+  yaml-anchors:
+    - &configure-python |
+      if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      pip install pytest
+
+  common-pipeline-fields: &common-pipeline-fields
+    caches:
+      - pip
+    artifacts:
+      - logs/*.log
+
+
+pipelines:
+
+  custom:
+
+    dev_prod_web:
+      - step:
+          name: Prod Web
+          script:
+            - *configure-python
+            - pytest --base_url "prod" -m prod_web --qase-testops-run-title="Prod Web $BITBUCKET_BUILD_NUMBER" --reruns=1
+          <<: *common-pipeline-fields
