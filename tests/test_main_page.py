@@ -18,3 +18,13 @@ class TestMainPage:
             response = ApiMainPage.get_main_page(url=base_url)
 
             Asserts.status_code(response, 200)
+
+        with qase.step("Step 2. Sending GET for UZ local", "Code: 200"):
+            response = ApiMainPage.get_uz_local(url=base_url)
+
+            Asserts.status_code(response, 200)
+
+        with qase.step("Step 3. Sending GET for RU local", "Code: 200"):
+            response = ApiMainPage.get_ru_local(url=base_url)
+
+            Asserts.status_code(response, 200)
