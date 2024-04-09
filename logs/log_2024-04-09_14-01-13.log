@@ -1,0 +1,1040 @@
+
+-----
+Test: tests/test_main_page.py::TestMainPage::test_get_main_page (call)
+Time: 2024-04-09 14:01:13.431912
+Request method: GET
+Request url: https://uzumtezkor.uz/
+
+Response code: 200
+Response text: <!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uzum tezkor</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#7000ff">
+    <meta name="msapplication-TileColor" content="#7000ff">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WHZ84ZG');</script>
+    <!-- End Google Tag Manager -->
+    <title>Uzum Tezkor - Ð±ÑÑÑÑÐ°Ñ Ð´Ð¾ÑÑÐ°Ð²ÐºÐ° ÐµÐ´Ñ Ð¸Ð· Ð»ÑÐ±Ð¸Ð¼ÑÑ ÑÐµÑÑÐ¾ÑÐ°Ð½Ð¾Ð²</title>
+    <meta property="og:url" content="https://uzumtezkor.uz/"/>
+    <meta property="og:title" content="Uzum Tezkor"/>
+    <meta property="og:description" content="ÐÑÑÑÑÐ°Ñ Ð´Ð¾ÑÑÐ°Ð²ÐºÐ° ÐµÐ´Ñ Ð¸Ð· Ð»ÑÐ±Ð¸Ð¼ÑÑ ÑÐµÑÑÐ¾ÑÐ°Ð½Ð¾Ð²"/>
+    <meta property="og:image" content="img/uzum-tezkor.png"/>
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHZ84ZG" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header>
+    <div class="navbar">
+        <div class="wrapper">
+            <a href="#" class="logo logo_navbar">
+                <img width="165.45px" height="56px" src="img/Logo.svg" class="logo_default" alt="">
+            </a>
+            <div class="nav_group">
+                <button type="button" class="nav-toggle-mobile" onclick="handleToggleNavMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-main">
+                    <li><a href="#about">Ð Ð½Ð°Ñ</a></li>
+                    <li><a href="#locations">Ð Ð°Ð¹Ð¾Ð½Ñ Ð´Ð¾ÑÑÐ°Ð²ÐºÐ¸</a></li>
+                    <li><a href="#joinus">Ð Ð°Ð±Ð¾ÑÐ°ÑÑ Ñ Ð½Ð°Ð¼Ð¸</a></li>
+                    <li><a href="#faq">ÐÐ¾Ð¿ÑÐ¾ÑÑ Ð¸ Ð¾ÑÐ²ÐµÑÑ</a></li>
+                </ul>
+                <a href="/uz" class="button button_outlne button_outline__sm button_lang">O'zbek</a>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section id="home">
+        <div class="foods">
+            <img src="img/hero/i_01.png" width="304px" alt="">
+            <img src="img/hero/i_02.png" width="304px" alt="">
+            <img src="img/hero/i_03.png" width="304px" alt="">
+            <img src="img/hero/i_04.png" width="304px" alt="">
+            <img src="img/hero/i_05.png" width="304px" alt="">
+        </div>
+        <div class="wrapper">
+            <h1><span>ÐÑÑÑÑÐ°Ñ</span> Ð´Ð¾ÑÑÐ°Ð²ÐºÐ° ÐµÐ´Ñ Ð¸Ð· Ð»ÑÐ±Ð¸Ð¼ÑÑ ÑÐµÑÑÐ¾ÑÐ°Ð½Ð¾Ð²</h1>
+            <div class="partners">
+                <img src="img/partners/bon.png" height="104px" alt="">
+                <img src="img/partners/yapona.png" height="104px" alt="">
+                <img src="img/partners/oqtepa.png" height="104px" alt="">
+                <img src="img/partners/dodo.png" height="104px" alt="">
+                <img src="img/partners/gioto.png" height="104px" alt="">
+                <img src="img/partners/plov.png" height="104px" alt="">
+            </div>
+            <p>Ð¡ÐºÐ°ÑÐ°Ð¹ÑÐµ Ð¿ÑÐ¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ</p>
+            <div class="mobile-stores">
+                <a href="https://apple.co/3Bu0BCl" target="_blank" rel="noreferrer noopener"><img
+                        src="img/App-Store.svg" height="72px" width="250px"/></a>
+                <a href="https://bit.ly/3Wjrp1T" target="_blank" rel="noreferrer noopener"><img
+                        src="img/google-play-badge.svg" height="72px" width="250px"/></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="wrapper">
+            <img src="img/logo-in-one-line.svg" height="80px" class="promo-logo"/>
+            <div class="columns">
+                <div class="container container-promo">
+                    <img src="img/Screen1.png" width="402px" height="693px" class="promo-device-1" alt="">
+                    <img src="img/Screen2.png" width="320px" height="693px" class="promo-device-2" alt="">
+                    <img src="img/badge.png" height="175px;" class="promo-badge" alt="">
+                </div>
+                <div class="container container-details">
+                    <h2>ÐÐ¾Ð²ÑÐ¹ ÑÐµÑÐ²Ð¸Ñ Ð´Ð¾ÑÑÐ°Ð²ÐºÐ¸ Ð³Ð¾ÑÐ¾Ð²Ð¾Ð¹ ÐµÐ´Ñ Ð¸Ð· ÑÐµÑÑÐ¾ÑÐ°Ð½Ð¾Ð² Ð¢Ð°ÑÐºÐµÐ½ÑÐ° Ð¾Ñ ÑÐºÐ¾ÑÐ¸ÑÑÐµÐ¼Ñ Uzum.</h2>
+                    <p>Ð¡ÐºÐ°ÑÐ°Ð¹ÑÐµ Ð¿ÑÐ¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ</p>
+                    <div class="mobile-stores">
+                        <a href="https://apple.co/3Bu0BCl" target="_blank" rel="noreferrer noopener"><img
+                                src="img/App-Store.svg" height="72px" width="250px"/></a>
+                        <a href="https://bit.ly/3Wjrp1T" target="_blank" rel="noreferrer noopener"><img
+                                src="img/google-play-badge.svg" height="72px" width="250px"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="locations">
+        <div class="wrapper">
+            <div class="columns">
+                <div class="container container-promo">
+                    <img src="img/USP_FastDelivery.svg" class="courier" width="720px" height="720px"/>
+                </div>
+                <div class="container container-details">
+                    <h2>Ð ÐºÐ°ÐºÐ¸Ñ ÑÐ°Ð¹Ð¾Ð½Ð°Ñ ÑÐ°Ð±Ð¾ÑÐ°ÐµÑ Ð´Ð¾ÑÑÐ°Ð²ÐºÐ°?</h2>
+                    <p class="description">ÐÑ ÑÐ°Ð±Ð¾ÑÐ°ÐµÐ¼ Ð¿ÑÐ°ÐºÑÐ¸ÑÐµÑÐºÐ¸ Ð²Ð¾ Ð²ÑÐµÑ ÑÐ°Ð¹Ð¾Ð½Ð°Ñ Ð¢Ð°ÑÐºÐµÐ½ÑÐ° Ð¸ ÐºÐ°Ð¶Ð´ÑÐ¹ Ð´ÐµÐ½Ñ ÑÐ°ÑÑÐ¸ÑÑÐµÐ¼
+                        Ð·Ð¾Ð½Ñ Ð´Ð¾ÑÑÐ°Ð²ÐºÐ¸. Ð¡Ð¼Ð¾ÑÑÐ¸ÑÐµ Ð°ÐºÑÑÐ°Ð»ÑÐ½ÑÑ <a href="#map"> ÐºÐ°ÑÑÑ</a> Ð´Ð¾ÑÑÐ°Ð²ÐºÐ¸.</p>
+                    <p>Ð¡ÐºÐ°ÑÐ°Ð¹ÑÐµ Ð¿ÑÐ¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ</p>
+                    <div class="mobile-stores">
+                        <a href="https://apple.co/3Bu0BCl" target="_blank" rel="noreferrer noopener"><img
+                                src="img/App-Store.svg" height="72px" width="250px"/></a>
+                        <a href="https://bit.ly/3Wjrp1T" target="_blank" rel="noreferrer noopener"><img
+                                src="img/google-play-badge.svg" height="72px" width="250px"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="map">
+        <div class="wrapper">
+            <div class="tashkent_map">
+                <script charset="utf-8"
+                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?source=constructorLink&um=constructor%3Ab1781ff7480a94855e36b044c9e4d0fe2f8b925c04ed29512f20eee187401297&z=14&width=100%&height=896&lang=ru_RU&scroll=false&apikey=fa6452ee-473b-431b-8f23-f75a6873a953"
+                        type="text/javascript">
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <section id="joinus">
+        <div class="wrapper">
+            <div class="columns">
+                <div class="container container-partner">
+                    <h3>Ð¡ÑÐ°ÑÑ Ð¿Ð°ÑÑÐ½ÑÑÐ¾Ð¼ Uzum Tezkor</h3>
+                    <i class="icon icon-arrow-right-up"></i>
+                    <img src="img/restaurant-and-couriers.svg" class="bg" alt="">
+                    <img src="img/badge_clients.png" class="badge" height="120px" alt="">
+                    <img src="img/partner.svg" class="character" alt="">
+                    <a class="subLink" href="https://uzumtezkor.uz/public-offer-partners" target="_blank"
+                       rel="noreferrer noopener">Ð¡ÑÑÐ»ÐºÐ° Ð½Ð° Ð¾ÑÐµÑÑÑ</a>
+                    <a class="offerLink" href="https://b24-s6qqbb.bitrix24.site/crm_form_thuet/?utm_source=uzum_tezkor"
+                       target="_blank"
+                       rel="noreferrer noopener"></a>
+                </div>
+                <div class="container container-courier">
+                    <h3>Ð¡ÑÐ°ÑÑ ÐºÑÑÑÐµÑÐ¾Ð¼ Uzum Tezkor</h3>
+                    <i class="icon icon-arrow-right-up"></i>
+                    <img src="img/badge_salary.png" class="badge" height="120px" alt="">
+                    <img src="img/car-and-building.svg" class="bg" alt="">
+                    <img src="img/courier-2.svg" class="character" alt="">
+                    <a class="offerLink" href="https://uzumtezkor1.paperform.co/?utm_source=lending&utm_medium=client"
+                       target="_blank"
+                       rel="noreferrer noopener"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="form">
+        <div class="wrapper">
+            <h4>Ð£Ð·Ð½Ð°Ð¹ÑÐµ Ð¾ Ð·Ð°Ð¿ÑÑÐºÐµ Ð² Ð²Ð°ÑÐµÐ¼ ÑÐ°Ð¹Ð¾Ð½Ðµ.</h4>
+            <p class="caption">ÐÑÐ±ÐµÑÐ¸ÑÐµ ÑÐ²Ð¾Ð¹ ÑÐ°Ð¹Ð¾Ð½ Ð¸ ÑÐºÐ°Ð¶Ð¸ÑÐµ Ð½Ð¾Ð¼ÐµÑ ÑÐµÐ»ÐµÑÐ¾Ð½Ð°.</p>
+            <form method="post" autocomplete="off" name="google-sheet">
+                <div class="select select-district" id="my_district_select_error">
+                    <label for="my_district">ÐÐ¾Ð¹ ÑÐ°Ð¹Ð¾Ð½</label>
+                    <select id="my_district" name="Ð Ð°Ð¹Ð¾Ð½" onchange="handleChooseMyDistrict()">
+                        <option disabled selected value>ÐÐ¾Ð¹ ÑÐ°Ð¹Ð¾Ð½</option>
+                        <option label="ÐÐ»Ð¼Ð°Ð·Ð°ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="ÐÐ»Ð¼Ð°Ð·Ð°ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">ÐÐ»Ð¼Ð°Ð·Ð°ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½</option>
+                        <option label="ÐÐµÐºÑÐµÐ¼Ð¸ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="ÐÐµÐºÑÐµÐ¼Ð¸ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">ÐÐµÐºÑÐµÐ¼Ð¸ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½</option>
+                        <option label="ÐÐ¸ÑÐ°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="ÐÐ¸ÑÐ°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">ÐÐ¸ÑÐ°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½</option>
+                        <option label="ÐÐ¸ÑÐ·Ð¾-Ð£Ð»ÑÐ³Ð±ÐµÐºÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="ÐÐ¸ÑÐ·Ð¾-Ð£Ð»ÑÐ³Ð±ÐµÐºÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">ÐÐ¸ÑÐ·Ð¾-Ð£Ð»ÑÐ³Ð±ÐµÐºÑÐºÐ¸Ð¹
+                            ÑÐ°Ð¹Ð¾Ð½
+                        </option>
+                        <option label="Ð¡ÐµÑÐ³ÐµÐ»Ð¸Ð¹ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="Ð¡ÐµÑÐ³ÐµÐ»Ð¸Ð¹ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Ð¡ÐµÑÐ³ÐµÐ»Ð¸Ð¹ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½</option>
+                        <option label="Ð§Ð¸Ð»Ð°Ð½Ð·Ð°ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="Ð§Ð¸Ð»Ð°Ð½Ð·Ð°ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Ð§Ð¸Ð»Ð°Ð½Ð·Ð°ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½</option>
+                        <option label="Ð¨Ð°Ð¹ÑÐ°Ð½ÑÐ°ÑÑÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="Ð¨Ð°Ð¹ÑÐ°Ð½ÑÐ°ÑÑÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Ð¨Ð°Ð¹ÑÐ°Ð½ÑÐ°ÑÑÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½
+                        </option>
+                        <option label="Ð®Ð½ÑÑÐ°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="Ð®Ð½ÑÑÐ°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Ð®Ð½ÑÑÐ°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½</option>
+                        <option label="Ð¯ÐºÐºÐ°ÑÐ°ÑÐ°Ð¹ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="Ð¯ÐºÐºÐ°ÑÐ°ÑÐ°Ð¹ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Ð¯ÐºÐºÐ°ÑÐ°ÑÐ°Ð¹ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½</option>
+                        <option label="Ð¯ÑÐ½Ð°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="Ð¯ÑÐ½Ð°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Ð¯ÑÐ½Ð°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½</option>
+                        <option label="Ð£ÑÑÐµÐ¿Ð¸Ð½ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="Ð£ÑÑÐµÐ¿Ð¸Ð½ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Ð£ÑÑÐµÐ¿Ð¸Ð½ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½</option>
+                    </select>
+                    <span id="error_my_district" class="error-message">ÐÑÐ±ÐµÑÐ¸ÑÐµ ÑÐ°Ð¹Ð¾Ð½</span>
+                </div>
+                <div class="input input-phone" id="telephone_error">
+                    <label for="telephone">Ð¢ÐµÐ»ÐµÑÐ¾Ð½</label>
+                    <div class="phone-field">
+                        <img src="img/uzb-flag.svg" class="flag" alt="">
+                        <span class="code">+998</span>
+                        <input id="telephone" maxlength="9" placeholder="000000000" type="number" name="Ð¢ÐµÐ»ÐµÑÐ¾Ð½"
+                               oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"/>
+                        <button type="button" class="reset" onclick="handleResetNumber()"><i
+                                class="icon icon-cancel"></i></button>
+                    </div>
+                    <span id="error_phone" class="error-message">ÐÐµÐ²ÐµÑÐ½Ð¾ Ð½Ð°Ð±ÑÐ°Ð½ Ð½Ð¾Ð¼ÐµÑ ÑÐµÐ»ÐµÑÐ¾Ð½Ð°</span>
+                </div>
+                <button type="submit" class="button button-primary button-submit" id="submit_button">Ð¡Ð¾Ð¾Ð±ÑÐ¸ÑÑ Ð¾
+                    Ð·Ð°Ð¿ÑÑÐºÐµ
+                    <i class="icon icon-arrow-right"></i></button>
+                <p class="terms">ÐÐ°Ð¿Ð¾Ð»Ð½ÑÑ ÑÐ¾ÑÐ¼Ñ, Ñ Ð¿ÑÐ¸Ð½Ð¸Ð¼Ð°Ñ <a href="https://uzumtezkor.uz/terms-of-use"
+                                                               target="_blank" rel="noreferrer noopener">ÑÑÐ»Ð¾Ð²Ð¸Ñ
+                    Ð¿ÐµÑÐµÐ´Ð°ÑÐ¸
+                    Ð¸Ð½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ð¸</a></p>
+            </form>
+        </div>
+    </section>
+
+
+    <section id="faq">
+        <div class="wrapper">
+            <div class="columns">
+                <div class="container">
+                    <h2>FAQ</h2>
+                </div>
+                <div class="container">
+                    <h5>ÐÐ°Ðº Ñ Ð¼Ð¾Ð³Ñ Ð¾Ð¿Ð»Ð°ÑÐ¸ÑÑ ÑÐ²Ð¾Ð¹ Ð·Ð°ÐºÐ°Ð·?</h5>
+                    <p>Ð¡Ð²Ð¾Ð¹ Ð·Ð°ÐºÐ°Ð· Ð²Ñ Ð¼Ð¾Ð¶ÐµÑÐµ Ð¾Ð¿Ð»Ð°ÑÐ¸ÑÑ ÑÐ¾Ð»ÑÐºÐ¾ Ð±Ð°Ð½ÐºÐ¾Ð²ÑÐºÐ¾Ð¹ ÐºÐ°ÑÑÐ¾Ð¹.</p>
+                    <h5>ÐÐ¾Ð³Ð´Ð° Ð²Ñ Ð·Ð°Ð¿ÑÑÑÐ¸ÑÐµÑÑ Ð² Ð´ÑÑÐ³Ð¸Ñ ÑÐ°Ð¹Ð¾Ð½Ð°Ñ?</h5>
+                    <p>Ð Ð´Ð°Ð½Ð½ÑÐ¹ Ð¼Ð¾Ð¼ÐµÐ½Ñ Ð¼Ñ Ð°ÐºÑÐ¸Ð²Ð½Ð¾ ÑÐ°Ð±Ð¾ÑÐ°ÐµÐ¼ Ð½Ð°Ð´ ÑÐ°ÑÑÐ¸ÑÐµÐ½Ð¸ÐµÐ¼ Ð·Ð¾Ð½Ñ Ð´Ð¾ÑÑÐ°Ð²ÐºÐ¸. Ð¡ÐºÐ°ÑÐ°Ð¹ÑÐµ Ð½Ð°ÑÐµ Ð¿ÑÐ¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ
+                        Ð¸Ð· <a href="https://apple.co/3Bu0BCl" target="_blank" rel="noreferrer noopener">AppStore</a>
+                        Ð¸Ð»Ð¸ <a href="https://bit.ly/3Wjrp1T" target="_blank"
+                               rel="noreferrer noopener">GooglePlay</a>,
+                        Ð¸ ÑÐ»ÐµÐ´Ð¸ÑÐµ Ð·Ð° Ð¾Ð±Ð½Ð¾Ð²Ð»ÐµÐ½Ð¸ÑÐ¼Ð¸. ÐÑ ÑÐ°ÐºÐ¶Ðµ Ð¼Ð¾Ð¶ÐµÑÐµ ÑÐ»ÐµÐ´Ð¸ÑÑ Ð·Ð° Ð½Ð¾Ð²Ð¾ÑÑÑÐ¼Ð¸ Ð² Ð½Ð°ÑÐ¸Ñ ÑÐ¾ÑÐ¸Ð°Ð»ÑÐ½ÑÑ ÑÐµÑÑÑ.
+                    </p>
+                    <h5>ÐÐ¾Ð³Ð´Ð° ÑÑÐ°Ð½ÐµÑ Ð´Ð¾ÑÑÑÐ¿Ð½Ð° Ð´Ð¾ÑÑÐ°Ð²ÐºÐ° Ð¸Ð· Ð´ÑÑÐ³Ð¸Ñ ÑÐµÑÑÐ¾ÑÐ°Ð½Ð¾Ð²?</h5>
+                    <p>Ð Ð´Ð°Ð½Ð½ÑÐ¹ Ð¼Ð¾Ð¼ÐµÐ½Ñ Ð¼Ñ Ð°ÐºÑÐ¸Ð²Ð½Ð¾ ÑÐ°Ð±Ð¾ÑÐ°ÐµÐ¼ Ð½Ð°Ð´ ÑÐ°ÑÑÐ¸ÑÐµÐ½Ð¸ÐµÐ¼ ÑÐ¿Ð¸ÑÐºÐ° Ð´Ð¾ÑÑÑÐ¿Ð½ÑÑ ÑÐµÑÑÐ¾ÑÐ°Ð½Ð¾Ð². Ð¡ÐºÐ°ÑÐ°Ð¹ÑÐµ
+                        Ð½Ð°ÑÐµ Ð¿ÑÐ¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ Ð¸Ð· <a href="https://apple.co/3Bu0BCl" target="_blank"
+                                              rel="noreferrer noopener">AppStore</a> Ð¸Ð»Ð¸ <a
+                                href="https://bit.ly/3Wjrp1T"
+                                target="_blank" rel="noreferrer noopener">GooglePlay</a>, Ð¸ ÑÐ»ÐµÐ´Ð¸ÑÐµ Ð·Ð°
+                        Ð¾Ð±Ð½Ð¾Ð²Ð»ÐµÐ½Ð¸ÑÐ¼Ð¸.</p>
+                    <h5>ÐÑÐ»Ð¸ Ñ Ð¼ÐµÐ½Ñ Ð¿ÑÐ¾Ð±Ð»ÐµÐ¼Ñ Ñ Ð·Ð°ÐºÐ°Ð·Ð¾Ð¼ â ÐºÑÐ´Ð° Ñ Ð¼Ð¾Ð³Ñ Ð½Ð°Ð¿Ð¸ÑÐ°ÑÑ?</h5>
+                    <p>ÐÑ Ð¼Ð¾Ð¶ÐµÑÐµ Ñ Ð½Ð°Ð¼Ð¸ ÑÐ²ÑÐ·Ð°ÑÑÑÑ ÑÐµÑÐµÐ· ÑÐ¾ÑÐ¼Ñ Ð¾Ð±ÑÐ°ÑÐ½Ð¾Ð¹ ÑÐ²ÑÐ·Ð¸ Ð² Ð¿ÑÐ¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ð¸.</p>
+                    <h5>ÐÐ°Ðº ÑÐ´ÐµÐ»Ð°ÑÑ Ð·Ð°ÐºÐ°Ð·?</h5>
+                    <p>ÐÑ Ð¼Ð¾Ð¶ÐµÑÐµ ÑÐ´ÐµÐ»Ð°ÑÑ Ð·Ð°ÐºÐ°Ð·, ÑÐµÑÐµÐ· Ð¿ÑÐ¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ, ÑÐºÐ°ÑÐ°Ð² ÐµÐ³Ð¾ Ð¿Ð¾ ÑÑÑÐ»ÐºÐµ Ð²ÑÑÐµ.</p>
+                </div>
+            </div>
+    </section>
+
+    <section id="contact">
+        <div class="wrapper">
+            <img src="img/Questions-icon.svg" class="question_img" height="111px"/>
+            <h2>ÐÑÑÐ°Ð»Ð¸ÑÑ Ð²Ð¾Ð¿ÑÐ¾ÑÑ?</h2>
+            <p class="caption">Ð¡Ð»ÐµÐ´Ð¸ÑÐµ Ð·Ð° Ð½Ð°Ð¼Ð¸ Ð² ÑÐ¾Ñ ÑÐµÑÑÑ</p>
+            <div class="social-grid">
+                <div class="item">
+                    <div class="iconbox">
+                        <div class="icon-wrap">
+                            <i class="icon icon-facebook"></i>
+                        </div>
+                        <span>Facebook</span>
+                    </div>
+                    <span class="url">@uzumtezkor</span>
+                    <i class="icon icon-arrow-right-up"></i>
+                    <a href="https://www.facebook.com/uzumtezkor" target="_blank" rel="noreferrer noopener"></a>
+                </div>
+                <div class="item">
+                    <div class="iconbox">
+                        <div class="icon-wrap">
+                            <i class="icon icon-ri_instagram-fill"></i>
+                        </div>
+                        <span>Instagram</span>
+                    </div>
+                    <span class="url">@Uzum.Tezkor</span>
+                    <i class="icon icon-arrow-right-up"></i>
+                    <a href="https://www.instagram.com/Uzum.Tezkor/" target="_blank" rel="noreferrer noopener"></a>
+                </div>
+                <div class="item">
+                    <div class="iconbox">
+                        <div class="icon-wrap">
+                            <i class="icon icon-telegram"></i>
+                        </div>
+                        <span>Telegram</span>
+                    </div>
+                    <span class="url">@UzumTezkor</span>
+                    <i class="icon icon-arrow-right-up"></i>
+                    <a href="https://t.me/UzumTezkor" target="_blank" rel="noreferrer noopener"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="wrapper">
+        <a href="#" class="logo">
+            <img width="165.45pxpx" height="56px" src="img/Logo.svg" class="logo_default" alt="">
+        </a>
+        <p>Ð¢ÐµÐ».: <a href="tel:+998787770156">+998 (78) 777-01-56</a> email: <a
+                href="mailto:care@uzum.com">care@uzum.com</a> <br/>ÐÐ´ÑÐµÑ: Ð£Ð·Ð±ÐµÐºÐ¸ÑÑÐ°Ð½, 100047, Ð³. Ð¢Ð°ÑÐºÐµÐ½Ñ,
+            ÐÐ¸ÑÐ°Ð±Ð°Ð´ÑÐºÐ¸Ð¹
+            ÑÐ°Ð¹Ð¾Ð½, ÐÐ¾Ð»Ð°Ð·Ð¾Ñ Ð¶/Ð¼, Ð¤Ð¸Ð´Ð¾ÐºÐ¾Ñ, 30<br/>ÐÐ ÐÐÐ Â«UZUM TezkorÂ»</p>
+
+        <p class="docs-links-list">
+            <a class="docs-link" href="https://uzumtezkor.uz/terms-of-use" target="_blank"
+               rel="noreferrer noopener">ÐÐ¾Ð»ÑÐ·Ð¾Ð²Ð°ÑÐµÐ»ÑÑÐºÐ¾Ðµ ÑÐ¾Ð³Ð»Ð°ÑÐµÐ½Ð¸Ðµ</a>
+            <a class="docs-link" href="https://uzumtezkor.uz/promo" target="_blank"
+               rel="noreferrer noopener">ÐÐºÑÐ¸Ð¸</a>
+            <a class="docs-link" href="https://uzumtezkor.uz/promocodes" target="_blank"
+               rel="noreferrer noopener">ÐÑÐ°Ð²Ð¸Ð»Ð° Ð¸ÑÐ¿Ð¾Ð»ÑÐ·Ð¾Ð²Ð°Ð½Ð¸Ñ Ð¿ÑÐ¾Ð¼Ð¾ÐºÐ¾Ð´Ð¾Ð²</a>
+        </p>
+    </div>
+</footer>
+
+<script charset="utf-8" type="text/javascript" src="js/nav.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/form.js"></script>
+</body>
+
+Response headers: {'Server': 'nginx', 'Date': 'Tue, 09 Apr 2024 10:01:14 GMT', 'Content-Type': 'text/html', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'Last-Modified': 'Thu, 04 Apr 2024 12:39:05 GMT', 'ETag': 'W/"660e9f69-4ca4"', 'Cache': 'HIT', 'X-Cached-Since': '2024-04-08T01:37:14+00:00', 'X-Node': 'm9-up-gc99', 'Content-Encoding': 'gzip'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_main_page.py::TestMainPage::test_get_main_page (call)
+Time: 2024-04-09 14:01:14.202248
+Request method: GET
+Request url: https://uzumtezkor.uz/uz
+
+Response code: 200
+Response text: <!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uzum tezkor</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#7000ff">
+    <meta name="msapplication-TileColor" content="#7000ff">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WHZ84ZG');</script>
+    <!-- End Google Tag Manager -->
+    <title>Uzum Tezkor - sevimli restoranlardan tez ovqat yetkazib berish</title>
+    <meta property="og:url" content="https://uzumtezkor.uz/uz/"/>
+    <meta property="og:title" content="Uzum Tezkor"/>
+    <meta property="og:description" content="Sevimli restoranlardan tez ovqat yetkazib berish"/>
+    <meta property="og:image" content="img/uzum-tezkor.png"/>
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHZ84ZG" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header>
+    <div class="navbar">
+        <div class="wrapper">
+            <a href="#" class="logo logo_navbar">
+                <img width="165.45px" height="56px" src="img/Logo.svg" class="logo_default" alt="">
+            </a>
+            <div class="nav_group">
+                <button type="button" class="nav-toggle-mobile" onclick="handleToggleNavMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-main uz">
+                    <li><a href="#about">Biz haqimizda</a></li>
+                    <li><a href="#locations">Yetkazish berish hududlari</a></li>
+                    <li><a href="#joinus">Biz bilan ishlash</a></li>
+                    <li><a href="#faq">Savollar va javoblar</a></li>
+                </ul>
+                <a href="/ru" class="button button_outlne button_outline__sm button_lang">Ð ÑÑÑÐºÐ¸Ð¹</a>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section id="home">
+        <div class="foods">
+            <img src="img/hero/i_01.png" width="304px" alt="">
+            <img src="img/hero/i_02.png" width="304px" alt="">
+            <img src="img/hero/i_03.png" width="304px" alt="">
+            <img src="img/hero/i_04.png" width="304px" alt="">
+            <img src="img/hero/i_05.png" width="304px" alt="">
+        </div>
+        <div class="wrapper">
+            <h1 class="uz">Sevimli restoranlardan taomlarni <span>tez</span> yetkazib berish</h1>
+            <div class="partners">
+                <img src="img/partners/bon.png" height="104px" alt="">
+                <img src="img/partners/yapona.png" height="104px" alt="">
+                <img src="img/partners/oqtepa.png" height="104px" alt="">
+                <img src="img/partners/dodo.png" height="104px" alt="">
+                <img src="img/partners/gioto.png" height="104px" alt="">
+                <img src="img/partners/plov.png" height="104px" alt="">
+            </div>
+            <p>Ilovani yuklab oling</p>
+            <div class="mobile-stores">
+                <a href="https://apple.co/3Bu0BCl" target="_blank" rel="noreferrer noopener"><img
+                        src="img/App-Store.svg" height="72px" width="250px"/></a>
+                <a href="https://bit.ly/3Wjrp1T" target="_blank" rel="noreferrer noopener"><img
+                        src="img/google-play-badge.svg" height="72px" width="250px"/></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="wrapper">
+            <img src="img/logo-in-one-line.svg" height="80px" class="promo-logo"/>
+            <div class="columns">
+                <div class="container container-promo">
+                    <img src="img/Screen1-uz.png" width="402px" height="693px" class="promo-device-1" alt="">
+                    <img src="img/Screen2-uz.png" width="320px" height="693px" class="promo-device-2" alt="">
+                    <img src="img/badge-uz.png" height="175px;" class="promo-badge" alt="">
+                </div>
+                <div class="container container-details">
+                    <h2 class="uz">Uzum ekotizimining Toshkent restoranlaridan tayyor taomlarni yetkazib berish
+                        boâyicha yangi
+                        servisi</h2>
+                    <p>Ilovani yuklab oling</p>
+                    <div class="mobile-stores">
+                        <a href="https://apple.co/3Bu0BCl" target="_blank" rel="noreferrer noopener"><img
+                                src="img/App-Store.svg" height="72px" width="250px"/></a>
+                        <a href="https://bit.ly/3Wjrp1T" target="_blank" rel="noreferrer noopener"><img
+                                src="img/google-play-badge.svg" height="72px" width="250px"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="locations">
+        <div class="wrapper">
+            <div class="columns">
+                <div class="container container-promo">
+                    <img src="img/USP_FastDelivery.svg" class="courier" width="720px" height="720px"/>
+                </div>
+                <div class="container container-details">
+                    <h2>Yetkazib berish xizmati qaysi tumanlarda ishlaydi?</h2>
+                    <p class="description">Biz Toshkentning deyarli barcha tumanlarida ishlayapmiz va har kuni
+                        yetkazib berish hududini kengaytirmoqdamiz. Joriy yetkazib berish <a href="#map">
+                            xaritasi</a> bilan tanishing.
+                    </p>
+                    <p>Ilovani yuklab oling</p>
+                    <div class="mobile-stores">
+                        <a href="https://apple.co/3Bu0BCl" target="_blank" rel="noreferrer noopener"><img
+                                src="img/App-Store.svg" height="72px" width="250px"/></a>
+                        <a href="https://bit.ly/3Wjrp1T" target="_blank" rel="noreferrer noopener"><img
+                                src="img/google-play-badge.svg" height="72px" width="250px"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="map">
+        <div class="wrapper">
+            <div class="tashkent_map">
+                <script charset="utf-8"
+                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?source=constructorLink&um=constructor%3Ab1781ff7480a94855e36b044c9e4d0fe2f8b925c04ed29512f20eee187401297&z=14&width=100%&height=896&lang=ru_RU&scroll=false&apikey=fa6452ee-473b-431b-8f23-f75a6873a953"
+                        type="text/javascript">
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <section id="joinus">
+        <div class="wrapper">
+            <div class="columns">
+                <div class="container container-partner">
+                    <h3>Uzum Tezkor hamkori boâlish</h3>
+                    <i class="icon icon-arrow-right-up"></i>
+                    <img src="img/restaurant-and-couriers.svg" class="bg" alt="">
+                    <img src="img/badge_clients-uz.png" class="badge" height="120px" alt="">
+                    <img src="img/partner-uz.svg" class="character" alt="">
+                    <a class="subLink" href="https://uzumtezkor.uz/public-offer-partners" target="_blank"
+                       rel="noreferrer noopener">Taklif qilish uchun havola</a>
+                    <a class="offerLink" href="https://b24-s6qqbb.bitrix24.site/crm_form_thuet/?utm_source=uzum_tezkor"
+                       target="_blank" rel="noreferrer noopener"></a>
+                </div>
+                <div class="container container-courier">
+                    <h3>Uzum Tezkor kureri boâlish</h3>
+                    <i class="icon icon-arrow-right-up"></i>
+                    <img src="img/badge_salary-uz.png" class="badge" height="120px" alt="">
+                    <img src="img/car-and-building.svg" class="bg" alt="">
+                    <img src="img/courier-2.svg" class="character" alt="">
+                    <a class="offerLink" href="https://uzumtezkor1.paperform.co/?utm_source=lending&utm_medium=client"
+                       target="_blank"
+                       rel="noreferrer noopener"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="form">
+        <div class="wrapper">
+            <h4>Oâz tumaningizda servis joriy etilishidan xabardor boâling.</h4>
+            <p class="caption">Tumaningizni tanlang va telefon raqamingizni koârsating.</p>
+            <form method="post" autocomplete="off" name="google-sheet">
+                <div class="select select-district" id="my_district_select_error">
+                    <label for="my_district">Mening tumanim</label>
+                    <select id="my_district" name="Ð Ð°Ð¹Ð¾Ð½" onchange="handleChooseMyDistrict()">
+                        <option disabled selected value>Mening tumanim</option>
+                        <option label="Olmazor tumani" value="ÐÐ»Ð¼Ð°Ð·Ð°ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Olmazor tumani</option>
+                        <option label="Bektemir tumani" value="ÐÐµÐºÑÐµÐ¼Ð¸ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Bektemir tumani</option>
+                        <option label="Mirobod tumani" value="ÐÐ¸ÑÐ°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Mirobod tumani</option>
+                        <option label="Mirzo Ulug'bek tumani" value="ÐÐ¸ÑÐ·Ð¾-Ð£Ð»ÑÐ³Ð±ÐµÐºÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Mirzo Ulug'bek tumani
+                        </option>
+                        <option label="Sergeli tumani" value="Ð¡ÐµÑÐ³ÐµÐ»Ð¸Ð¹ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Sergeli tumani</option>
+                        <option label="Chilonzor tumani" value="Ð§Ð¸Ð»Ð°Ð½Ð·Ð°ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Chilonzor tumani</option>
+                        <option label="Shayxontohur tumani" value="Ð¨Ð°Ð¹ÑÐ°Ð½ÑÐ°ÑÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Shayxontohur tumani
+                        </option>
+                        <option label="Yunusobod tumani" value="Ð®Ð½ÑÑÐ°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Yunusobod tumani</option>
+                        <option label="Yakkasaroy tumani" value="Ð¯ÐºÐºÐ°ÑÐ°ÑÐ°Ð¹ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Yakkasaroy tumani</option>
+                        <option label="Yashnobod tumani" value="Ð¯ÑÐ½Ð°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Yashnobod tumani</option>
+                        <option label="Uchtepa tumani" value="Ð£ÑÑÐµÐ¿Ð¸Ð½ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Uchtepa tumani</option>
+                    </select>
+                    <span id="error_my_district" class="error-message">Tumani tanlang</span>
+                </div>
+                <div class="input input-phone" id="telephone_error">
+                    <label for="telephone">Telefon</label>
+                    <div class="phone-field">
+                        <img src="img/uzb-flag.svg" class="flag" alt="">
+                        <span class="code">+998</span>
+                        <input id="telephone" maxlength="9" placeholder="000000000" type="number" name="Ð¢ÐµÐ»ÐµÑÐ¾Ð½"
+                               oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"/>
+                        <button type="button" class="reset" onclick="handleResetNumber()"><i
+                                class="icon icon-cancel"></i></button>
+                    </div>
+                    <span id="error_phone" class="error-message">Telefon raqami noto'g'ri terilgan</span>
+                </div>
+                <button type="submit" class="button button-primary button-submit" id="submit_button">Joriy etilishi
+                    haqida xabar berish <i class="icon icon-arrow-right"></i></button>
+                <p class="terms">Shaklni toâldirish orqali <a href="https://uzumtezkor.uz/terms-of-use"
+                                                              target="_blank" rel="noreferrer noopener">axborot taqdim
+                    etish shartlarini</a> qabul qilaman
+                </p>
+            </form>
+        </div>
+    </section>
+
+
+    <section id="faq">
+        <div class="wrapper">
+            <div class="columns">
+                <div class="container">
+                    <h2>FAQ</h2>
+                </div>
+                <div class="container">
+                    <h5>Buyurtma haqini qanday toâlashim mumkin?</h5>
+                    <p>Buyurtmangiz haqini faqat bank kartasi orqali toâlashingiz mumkin.</p>
+                    <h5>Boshqa tumanlarda servisni qachon joriy etasizlar?</h5>
+                    <p>Hozirda biz yetkazib berish hududini kengaytirish ustida faol ishlayapmiz. Ilovamizni
+                        <a href="https://apple.co/3Bu0BCl" target="_blank" rel="noreferrer noopener">AppStore</a>
+                        yoki <a href="https://bit.ly/3Wjrp1T" target="_blank"
+                                rel="noreferrer noopener">GooglePlaydan</a> yuklab oling va yangilanishlarni kuzatib
+                        boring. Shuningdek,
+                        ijtimoiy tarmoqlarimizda yangiliklarni kuzatib borishingiz ham mumkin.
+                    </p>
+                    <h5>Boshqa restoranlardan yetkazib berish qachon yoâlga qoâyiladi?</h5>
+                    <p>Hozirda biz hamkor restoranlar roâyxatini kengaytirish ustida faol ishlayapmiz. Ilovamizni
+                        <a href="https://apple.co/3Bu0BCl" target="_blank" rel="noreferrer noopener">AppStore</a>
+                        yoki <a href="https://bit.ly/3Wjrp1T" target="_blank"
+                                rel="noreferrer noopener">GooglePlaydan</a> yuklab oling va yangilanishlarni kuzatib
+                        boring.
+                    </p>
+                    <h5>Buyurtma bilan muammo tugâilsa, qayerga murojaat qilishim mumkin?</h5>
+                    <p>Siz ilovadagi qayta aloqa shakli orqali biz bilan bogâlanishingiz mumkin.</p>
+                    <h5>Buyurtma qanday qilinadi?</h5>
+                    <p>Yuqoridagi havola boâyicha ilovani yuklab olib, u orqali buyurtmani rasmiylashtirishingiz
+                        mumkin.</p>
+                </div>
+            </div>
+    </section>
+
+    <section id="contact">
+        <div class="wrapper">
+            <img src="img/Questions-icon.svg" class="question_img" height="111px"/>
+            <h2>Savollar qoldimi?</h2>
+            <p class="caption">Ijtimoiy tarmoqlarda bizni kuzating</p>
+            <div class="social-grid">
+                <div class="item">
+                    <div class="iconbox">
+                        <div class="icon-wrap">
+                            <i class="icon icon-facebook"></i>
+                        </div>
+                        <span>Facebook</span>
+                    </div>
+                    <span class="url">@uzumtezkor</span>
+                    <i class="icon icon-arrow-right-up"></i>
+                    <a href="https://www.facebook.com/uzumtezkor" target="_blank" rel="noreferrer noopener"></a>
+                </div>
+                <div class="item">
+                    <div class="iconbox">
+                        <div class="icon-wrap">
+                            <i class="icon icon-ri_instagram-fill"></i>
+                        </div>
+                        <span>Instagram</span>
+                    </div>
+                    <span class="url">@Uzum.Tezkor</span>
+                    <i class="icon icon-arrow-right-up"></i>
+                    <a href="https://www.instagram.com/Uzum.Tezkor/" target="_blank" rel="noreferrer noopener"></a>
+                </div>
+                <div class="item">
+                    <div class="iconbox">
+                        <div class="icon-wrap">
+                            <i class="icon icon-telegram"></i>
+                        </div>
+                        <span>Telegram</span>
+                    </div>
+                    <span class="url">@UzumTezkor</span>
+                    <i class="icon icon-arrow-right-up"></i>
+                    <a href="https://t.me/UzumTezkor" target="_blank" rel="noreferrer noopener"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="wrapper">
+        <a href="#" class="logo">
+            <img width="165.45pxpx" height="56px" src="img/Logo.svg" class="logo_default" alt="">
+        </a>
+        <p>Ð¢ÐµÐ».: <a href="tel:+998787770156">+998 (78) 777-01-56</a> email: <a
+                href="mailto:care@uzum.com">care@uzum.com</a> <br/>Manzil: Oâzbekiston, 100047, Toshkent sh.,
+            Mirobod t-ni, Lolazor mavzesi, Fidokor, 30<br/>âUZUM Tezkorâ XK MChJ</p>
+
+        <p class="docs-links-list">
+            <a class="docs-link" href="https://uzumtezkor.uz/terms-of-use" target="_blank"
+               rel="noreferrer noopener">Foydalanuvchi kelishuvi</a>
+            <a class="docs-link" href="https://uzumtezkor.uz/promo" target="_blank"
+               rel="noreferrer noopener">Aksiya</a>
+            <a class="docs-link" href="https://uzumtezkor.uz/promocodes" target="_blank"
+               rel="noreferrer noopener">Promo-kodlardan foydalanish qoidalari</a>
+        </p>
+    </div>
+</footer>
+
+<script charset="utf-8" type="text/javascript" src="js/nav.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/form.js"></script>
+</body>
+
+Response headers: {'Server': 'nginx', 'Date': 'Tue, 09 Apr 2024 10:01:14 GMT', 'Content-Type': 'text/html', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'Last-Modified': 'Thu, 04 Apr 2024 12:39:05 GMT', 'ETag': 'W/"660e9f69-4766"', 'Cache': 'HIT', 'X-Cached-Since': '2024-04-05T10:38:34+00:00', 'X-Node': 'm9-up-gc229', 'Content-Encoding': 'gzip'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_main_page.py::TestMainPage::test_get_main_page (call)
+Time: 2024-04-09 14:01:14.720210
+Request method: GET
+Request url: https://uzumtezkor.uz/ru
+
+Response code: 200
+Response text: <!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uzum tezkor</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#7000ff">
+    <meta name="msapplication-TileColor" content="#7000ff">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WHZ84ZG');</script>
+    <!-- End Google Tag Manager -->
+    <title>Uzum Tezkor - Ð±ÑÑÑÑÐ°Ñ Ð´Ð¾ÑÑÐ°Ð²ÐºÐ° ÐµÐ´Ñ Ð¸Ð· Ð»ÑÐ±Ð¸Ð¼ÑÑ ÑÐµÑÑÐ¾ÑÐ°Ð½Ð¾Ð²</title>
+    <meta property="og:url" content="https://uzumtezkor.uz/"/>
+    <meta property="og:title" content="Uzum Tezkor"/>
+    <meta property="og:description" content="ÐÑÑÑÑÐ°Ñ Ð´Ð¾ÑÑÐ°Ð²ÐºÐ° ÐµÐ´Ñ Ð¸Ð· Ð»ÑÐ±Ð¸Ð¼ÑÑ ÑÐµÑÑÐ¾ÑÐ°Ð½Ð¾Ð²"/>
+    <meta property="og:image" content="img/uzum-tezkor.png"/>
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHZ84ZG" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header>
+    <div class="navbar">
+        <div class="wrapper">
+            <a href="#" class="logo logo_navbar">
+                <img width="165.45px" height="56px" src="img/Logo.svg" class="logo_default" alt="">
+            </a>
+            <div class="nav_group">
+                <button type="button" class="nav-toggle-mobile" onclick="handleToggleNavMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-main">
+                    <li><a href="#about">Ð Ð½Ð°Ñ</a></li>
+                    <li><a href="#locations">Ð Ð°Ð¹Ð¾Ð½Ñ Ð´Ð¾ÑÑÐ°Ð²ÐºÐ¸</a></li>
+                    <li><a href="#joinus">Ð Ð°Ð±Ð¾ÑÐ°ÑÑ Ñ Ð½Ð°Ð¼Ð¸</a></li>
+                    <li><a href="#faq">ÐÐ¾Ð¿ÑÐ¾ÑÑ Ð¸ Ð¾ÑÐ²ÐµÑÑ</a></li>
+                </ul>
+                <a href="/uz" class="button button_outlne button_outline__sm button_lang">O'zbek</a>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section id="home">
+        <div class="foods">
+            <img src="img/hero/i_01.png" width="304px" alt="">
+            <img src="img/hero/i_02.png" width="304px" alt="">
+            <img src="img/hero/i_03.png" width="304px" alt="">
+            <img src="img/hero/i_04.png" width="304px" alt="">
+            <img src="img/hero/i_05.png" width="304px" alt="">
+        </div>
+        <div class="wrapper">
+            <h1><span>ÐÑÑÑÑÐ°Ñ</span> Ð´Ð¾ÑÑÐ°Ð²ÐºÐ° ÐµÐ´Ñ Ð¸Ð· Ð»ÑÐ±Ð¸Ð¼ÑÑ ÑÐµÑÑÐ¾ÑÐ°Ð½Ð¾Ð²</h1>
+            <div class="partners">
+                <img src="img/partners/bon.png" height="104px" alt="">
+                <img src="img/partners/yapona.png" height="104px" alt="">
+                <img src="img/partners/oqtepa.png" height="104px" alt="">
+                <img src="img/partners/dodo.png" height="104px" alt="">
+                <img src="img/partners/gioto.png" height="104px" alt="">
+                <img src="img/partners/plov.png" height="104px" alt="">
+            </div>
+            <p>Ð¡ÐºÐ°ÑÐ°Ð¹ÑÐµ Ð¿ÑÐ¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ</p>
+            <div class="mobile-stores">
+                <a href="https://apple.co/3Bu0BCl" target="_blank" rel="noreferrer noopener"><img
+                        src="img/App-Store.svg" height="72px" width="250px"/></a>
+                <a href="https://bit.ly/3Wjrp1T" target="_blank" rel="noreferrer noopener"><img
+                        src="img/google-play-badge.svg" height="72px" width="250px"/></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="wrapper">
+            <img src="img/logo-in-one-line.svg" height="80px" class="promo-logo"/>
+            <div class="columns">
+                <div class="container container-promo">
+                    <img src="img/Screen1.png" width="402px" height="693px" class="promo-device-1" alt="">
+                    <img src="img/Screen2.png" width="320px" height="693px" class="promo-device-2" alt="">
+                    <img src="img/badge.png" height="175px;" class="promo-badge" alt="">
+                </div>
+                <div class="container container-details">
+                    <h2>ÐÐ¾Ð²ÑÐ¹ ÑÐµÑÐ²Ð¸Ñ Ð´Ð¾ÑÑÐ°Ð²ÐºÐ¸ Ð³Ð¾ÑÐ¾Ð²Ð¾Ð¹ ÐµÐ´Ñ Ð¸Ð· ÑÐµÑÑÐ¾ÑÐ°Ð½Ð¾Ð² Ð¢Ð°ÑÐºÐµÐ½ÑÐ° Ð¾Ñ ÑÐºÐ¾ÑÐ¸ÑÑÐµÐ¼Ñ Uzum.</h2>
+                    <p>Ð¡ÐºÐ°ÑÐ°Ð¹ÑÐµ Ð¿ÑÐ¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ</p>
+                    <div class="mobile-stores">
+                        <a href="https://apple.co/3Bu0BCl" target="_blank" rel="noreferrer noopener"><img
+                                src="img/App-Store.svg" height="72px" width="250px"/></a>
+                        <a href="https://bit.ly/3Wjrp1T" target="_blank" rel="noreferrer noopener"><img
+                                src="img/google-play-badge.svg" height="72px" width="250px"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="locations">
+        <div class="wrapper">
+            <div class="columns">
+                <div class="container container-promo">
+                    <img src="img/USP_FastDelivery.svg" class="courier" width="720px" height="720px"/>
+                </div>
+                <div class="container container-details">
+                    <h2>Ð ÐºÐ°ÐºÐ¸Ñ ÑÐ°Ð¹Ð¾Ð½Ð°Ñ ÑÐ°Ð±Ð¾ÑÐ°ÐµÑ Ð´Ð¾ÑÑÐ°Ð²ÐºÐ°?</h2>
+                    <p class="description">ÐÑ ÑÐ°Ð±Ð¾ÑÐ°ÐµÐ¼ Ð¿ÑÐ°ÐºÑÐ¸ÑÐµÑÐºÐ¸ Ð²Ð¾ Ð²ÑÐµÑ ÑÐ°Ð¹Ð¾Ð½Ð°Ñ Ð¢Ð°ÑÐºÐµÐ½ÑÐ° Ð¸ ÐºÐ°Ð¶Ð´ÑÐ¹ Ð´ÐµÐ½Ñ ÑÐ°ÑÑÐ¸ÑÑÐµÐ¼
+                        Ð·Ð¾Ð½Ñ Ð´Ð¾ÑÑÐ°Ð²ÐºÐ¸. Ð¡Ð¼Ð¾ÑÑÐ¸ÑÐµ Ð°ÐºÑÑÐ°Ð»ÑÐ½ÑÑ <a href="#map"> ÐºÐ°ÑÑÑ</a> Ð´Ð¾ÑÑÐ°Ð²ÐºÐ¸.</p>
+                    <p>Ð¡ÐºÐ°ÑÐ°Ð¹ÑÐµ Ð¿ÑÐ¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ</p>
+                    <div class="mobile-stores">
+                        <a href="https://apple.co/3Bu0BCl" target="_blank" rel="noreferrer noopener"><img
+                                src="img/App-Store.svg" height="72px" width="250px"/></a>
+                        <a href="https://bit.ly/3Wjrp1T" target="_blank" rel="noreferrer noopener"><img
+                                src="img/google-play-badge.svg" height="72px" width="250px"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="map">
+        <div class="wrapper">
+            <div class="tashkent_map">
+                <script charset="utf-8"
+                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?source=constructorLink&um=constructor%3Ab1781ff7480a94855e36b044c9e4d0fe2f8b925c04ed29512f20eee187401297&z=14&width=100%&height=896&lang=ru_RU&scroll=false&apikey=fa6452ee-473b-431b-8f23-f75a6873a953"
+                        type="text/javascript">
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <section id="joinus">
+        <div class="wrapper">
+            <div class="columns">
+                <div class="container container-partner">
+                    <h3>Ð¡ÑÐ°ÑÑ Ð¿Ð°ÑÑÐ½ÑÑÐ¾Ð¼ Uzum Tezkor</h3>
+                    <i class="icon icon-arrow-right-up"></i>
+                    <img src="img/restaurant-and-couriers.svg" class="bg" alt="">
+                    <img src="img/badge_clients.png" class="badge" height="120px" alt="">
+                    <img src="img/partner.svg" class="character" alt="">
+                    <a class="subLink" href="https://uzumtezkor.uz/public-offer-partners" target="_blank"
+                       rel="noreferrer noopener">Ð¡ÑÑÐ»ÐºÐ° Ð½Ð° Ð¾ÑÐµÑÑÑ</a>
+                    <a class="offerLink" href="https://b24-s6qqbb.bitrix24.site/crm_form_thuet/?utm_source=uzum_tezkor"
+                       target="_blank"
+                       rel="noreferrer noopener"></a>
+                </div>
+                <div class="container container-courier">
+                    <h3>Ð¡ÑÐ°ÑÑ ÐºÑÑÑÐµÑÐ¾Ð¼ Uzum Tezkor</h3>
+                    <i class="icon icon-arrow-right-up"></i>
+                    <img src="img/badge_salary.png" class="badge" height="120px" alt="">
+                    <img src="img/car-and-building.svg" class="bg" alt="">
+                    <img src="img/courier-2.svg" class="character" alt="">
+                    <a class="offerLink" href="https://uzumtezkor1.paperform.co/?utm_source=lending&utm_medium=client"
+                       target="_blank"
+                       rel="noreferrer noopener"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="form">
+        <div class="wrapper">
+            <h4>Ð£Ð·Ð½Ð°Ð¹ÑÐµ Ð¾ Ð·Ð°Ð¿ÑÑÐºÐµ Ð² Ð²Ð°ÑÐµÐ¼ ÑÐ°Ð¹Ð¾Ð½Ðµ.</h4>
+            <p class="caption">ÐÑÐ±ÐµÑÐ¸ÑÐµ ÑÐ²Ð¾Ð¹ ÑÐ°Ð¹Ð¾Ð½ Ð¸ ÑÐºÐ°Ð¶Ð¸ÑÐµ Ð½Ð¾Ð¼ÐµÑ ÑÐµÐ»ÐµÑÐ¾Ð½Ð°.</p>
+            <form method="post" autocomplete="off" name="google-sheet">
+                <div class="select select-district" id="my_district_select_error">
+                    <label for="my_district">ÐÐ¾Ð¹ ÑÐ°Ð¹Ð¾Ð½</label>
+                    <select id="my_district" name="Ð Ð°Ð¹Ð¾Ð½" onchange="handleChooseMyDistrict()">
+                        <option disabled selected value>ÐÐ¾Ð¹ ÑÐ°Ð¹Ð¾Ð½</option>
+                        <option label="ÐÐ»Ð¼Ð°Ð·Ð°ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="ÐÐ»Ð¼Ð°Ð·Ð°ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">ÐÐ»Ð¼Ð°Ð·Ð°ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½</option>
+                        <option label="ÐÐµÐºÑÐµÐ¼Ð¸ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="ÐÐµÐºÑÐµÐ¼Ð¸ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">ÐÐµÐºÑÐµÐ¼Ð¸ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½</option>
+                        <option label="ÐÐ¸ÑÐ°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="ÐÐ¸ÑÐ°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">ÐÐ¸ÑÐ°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½</option>
+                        <option label="ÐÐ¸ÑÐ·Ð¾-Ð£Ð»ÑÐ³Ð±ÐµÐºÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="ÐÐ¸ÑÐ·Ð¾-Ð£Ð»ÑÐ³Ð±ÐµÐºÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">ÐÐ¸ÑÐ·Ð¾-Ð£Ð»ÑÐ³Ð±ÐµÐºÑÐºÐ¸Ð¹
+                            ÑÐ°Ð¹Ð¾Ð½
+                        </option>
+                        <option label="Ð¡ÐµÑÐ³ÐµÐ»Ð¸Ð¹ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="Ð¡ÐµÑÐ³ÐµÐ»Ð¸Ð¹ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Ð¡ÐµÑÐ³ÐµÐ»Ð¸Ð¹ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½</option>
+                        <option label="Ð§Ð¸Ð»Ð°Ð½Ð·Ð°ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="Ð§Ð¸Ð»Ð°Ð½Ð·Ð°ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Ð§Ð¸Ð»Ð°Ð½Ð·Ð°ÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½</option>
+                        <option label="Ð¨Ð°Ð¹ÑÐ°Ð½ÑÐ°ÑÑÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="Ð¨Ð°Ð¹ÑÐ°Ð½ÑÐ°ÑÑÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Ð¨Ð°Ð¹ÑÐ°Ð½ÑÐ°ÑÑÑÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½
+                        </option>
+                        <option label="Ð®Ð½ÑÑÐ°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="Ð®Ð½ÑÑÐ°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Ð®Ð½ÑÑÐ°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½</option>
+                        <option label="Ð¯ÐºÐºÐ°ÑÐ°ÑÐ°Ð¹ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="Ð¯ÐºÐºÐ°ÑÐ°ÑÐ°Ð¹ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Ð¯ÐºÐºÐ°ÑÐ°ÑÐ°Ð¹ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½</option>
+                        <option label="Ð¯ÑÐ½Ð°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="Ð¯ÑÐ½Ð°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Ð¯ÑÐ½Ð°Ð±Ð°Ð´ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½</option>
+                        <option label="Ð£ÑÑÐµÐ¿Ð¸Ð½ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½" value="Ð£ÑÑÐµÐ¿Ð¸Ð½ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½">Ð£ÑÑÐµÐ¿Ð¸Ð½ÑÐºÐ¸Ð¹ ÑÐ°Ð¹Ð¾Ð½</option>
+                    </select>
+                    <span id="error_my_district" class="error-message">ÐÑÐ±ÐµÑÐ¸ÑÐµ ÑÐ°Ð¹Ð¾Ð½</span>
+                </div>
+                <div class="input input-phone" id="telephone_error">
+                    <label for="telephone">Ð¢ÐµÐ»ÐµÑÐ¾Ð½</label>
+                    <div class="phone-field">
+                        <img src="img/uzb-flag.svg" class="flag" alt="">
+                        <span class="code">+998</span>
+                        <input id="telephone" maxlength="9" placeholder="000000000" type="number" name="Ð¢ÐµÐ»ÐµÑÐ¾Ð½"
+                               oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"/>
+                        <button type="button" class="reset" onclick="handleResetNumber()"><i
+                                class="icon icon-cancel"></i></button>
+                    </div>
+                    <span id="error_phone" class="error-message">ÐÐµÐ²ÐµÑÐ½Ð¾ Ð½Ð°Ð±ÑÐ°Ð½ Ð½Ð¾Ð¼ÐµÑ ÑÐµÐ»ÐµÑÐ¾Ð½Ð°</span>
+                </div>
+                <button type="submit" class="button button-primary button-submit" id="submit_button">Ð¡Ð¾Ð¾Ð±ÑÐ¸ÑÑ Ð¾
+                    Ð·Ð°Ð¿ÑÑÐºÐµ
+                    <i class="icon icon-arrow-right"></i></button>
+                <p class="terms">ÐÐ°Ð¿Ð¾Ð»Ð½ÑÑ ÑÐ¾ÑÐ¼Ñ, Ñ Ð¿ÑÐ¸Ð½Ð¸Ð¼Ð°Ñ <a href="https://uzumtezkor.uz/terms-of-use"
+                                                               target="_blank" rel="noreferrer noopener">ÑÑÐ»Ð¾Ð²Ð¸Ñ
+                    Ð¿ÐµÑÐµÐ´Ð°ÑÐ¸
+                    Ð¸Ð½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ð¸</a></p>
+            </form>
+        </div>
+    </section>
+
+
+    <section id="faq">
+        <div class="wrapper">
+            <div class="columns">
+                <div class="container">
+                    <h2>FAQ</h2>
+                </div>
+                <div class="container">
+                    <h5>ÐÐ°Ðº Ñ Ð¼Ð¾Ð³Ñ Ð¾Ð¿Ð»Ð°ÑÐ¸ÑÑ ÑÐ²Ð¾Ð¹ Ð·Ð°ÐºÐ°Ð·?</h5>
+                    <p>Ð¡Ð²Ð¾Ð¹ Ð·Ð°ÐºÐ°Ð· Ð²Ñ Ð¼Ð¾Ð¶ÐµÑÐµ Ð¾Ð¿Ð»Ð°ÑÐ¸ÑÑ ÑÐ¾Ð»ÑÐºÐ¾ Ð±Ð°Ð½ÐºÐ¾Ð²ÑÐºÐ¾Ð¹ ÐºÐ°ÑÑÐ¾Ð¹.</p>
+                    <h5>ÐÐ¾Ð³Ð´Ð° Ð²Ñ Ð·Ð°Ð¿ÑÑÑÐ¸ÑÐµÑÑ Ð² Ð´ÑÑÐ³Ð¸Ñ ÑÐ°Ð¹Ð¾Ð½Ð°Ñ?</h5>
+                    <p>Ð Ð´Ð°Ð½Ð½ÑÐ¹ Ð¼Ð¾Ð¼ÐµÐ½Ñ Ð¼Ñ Ð°ÐºÑÐ¸Ð²Ð½Ð¾ ÑÐ°Ð±Ð¾ÑÐ°ÐµÐ¼ Ð½Ð°Ð´ ÑÐ°ÑÑÐ¸ÑÐµÐ½Ð¸ÐµÐ¼ Ð·Ð¾Ð½Ñ Ð´Ð¾ÑÑÐ°Ð²ÐºÐ¸. Ð¡ÐºÐ°ÑÐ°Ð¹ÑÐµ Ð½Ð°ÑÐµ Ð¿ÑÐ¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ
+                        Ð¸Ð· <a href="https://apple.co/3Bu0BCl" target="_blank" rel="noreferrer noopener">AppStore</a>
+                        Ð¸Ð»Ð¸ <a href="https://bit.ly/3Wjrp1T" target="_blank"
+                               rel="noreferrer noopener">GooglePlay</a>,
+                        Ð¸ ÑÐ»ÐµÐ´Ð¸ÑÐµ Ð·Ð° Ð¾Ð±Ð½Ð¾Ð²Ð»ÐµÐ½Ð¸ÑÐ¼Ð¸. ÐÑ ÑÐ°ÐºÐ¶Ðµ Ð¼Ð¾Ð¶ÐµÑÐµ ÑÐ»ÐµÐ´Ð¸ÑÑ Ð·Ð° Ð½Ð¾Ð²Ð¾ÑÑÑÐ¼Ð¸ Ð² Ð½Ð°ÑÐ¸Ñ ÑÐ¾ÑÐ¸Ð°Ð»ÑÐ½ÑÑ ÑÐµÑÑÑ.
+                    </p>
+                    <h5>ÐÐ¾Ð³Ð´Ð° ÑÑÐ°Ð½ÐµÑ Ð´Ð¾ÑÑÑÐ¿Ð½Ð° Ð´Ð¾ÑÑÐ°Ð²ÐºÐ° Ð¸Ð· Ð´ÑÑÐ³Ð¸Ñ ÑÐµÑÑÐ¾ÑÐ°Ð½Ð¾Ð²?</h5>
+                    <p>Ð Ð´Ð°Ð½Ð½ÑÐ¹ Ð¼Ð¾Ð¼ÐµÐ½Ñ Ð¼Ñ Ð°ÐºÑÐ¸Ð²Ð½Ð¾ ÑÐ°Ð±Ð¾ÑÐ°ÐµÐ¼ Ð½Ð°Ð´ ÑÐ°ÑÑÐ¸ÑÐµÐ½Ð¸ÐµÐ¼ ÑÐ¿Ð¸ÑÐºÐ° Ð´Ð¾ÑÑÑÐ¿Ð½ÑÑ ÑÐµÑÑÐ¾ÑÐ°Ð½Ð¾Ð². Ð¡ÐºÐ°ÑÐ°Ð¹ÑÐµ
+                        Ð½Ð°ÑÐµ Ð¿ÑÐ¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ Ð¸Ð· <a href="https://apple.co/3Bu0BCl" target="_blank"
+                                              rel="noreferrer noopener">AppStore</a> Ð¸Ð»Ð¸ <a
+                                href="https://bit.ly/3Wjrp1T"
+                                target="_blank" rel="noreferrer noopener">GooglePlay</a>, Ð¸ ÑÐ»ÐµÐ´Ð¸ÑÐµ Ð·Ð°
+                        Ð¾Ð±Ð½Ð¾Ð²Ð»ÐµÐ½Ð¸ÑÐ¼Ð¸.</p>
+                    <h5>ÐÑÐ»Ð¸ Ñ Ð¼ÐµÐ½Ñ Ð¿ÑÐ¾Ð±Ð»ÐµÐ¼Ñ Ñ Ð·Ð°ÐºÐ°Ð·Ð¾Ð¼ â ÐºÑÐ´Ð° Ñ Ð¼Ð¾Ð³Ñ Ð½Ð°Ð¿Ð¸ÑÐ°ÑÑ?</h5>
+                    <p>ÐÑ Ð¼Ð¾Ð¶ÐµÑÐµ Ñ Ð½Ð°Ð¼Ð¸ ÑÐ²ÑÐ·Ð°ÑÑÑÑ ÑÐµÑÐµÐ· ÑÐ¾ÑÐ¼Ñ Ð¾Ð±ÑÐ°ÑÐ½Ð¾Ð¹ ÑÐ²ÑÐ·Ð¸ Ð² Ð¿ÑÐ¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ð¸.</p>
+                    <h5>ÐÐ°Ðº ÑÐ´ÐµÐ»Ð°ÑÑ Ð·Ð°ÐºÐ°Ð·?</h5>
+                    <p>ÐÑ Ð¼Ð¾Ð¶ÐµÑÐµ ÑÐ´ÐµÐ»Ð°ÑÑ Ð·Ð°ÐºÐ°Ð·, ÑÐµÑÐµÐ· Ð¿ÑÐ¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ, ÑÐºÐ°ÑÐ°Ð² ÐµÐ³Ð¾ Ð¿Ð¾ ÑÑÑÐ»ÐºÐµ Ð²ÑÑÐµ.</p>
+                </div>
+            </div>
+    </section>
+
+    <section id="contact">
+        <div class="wrapper">
+            <img src="img/Questions-icon.svg" class="question_img" height="111px"/>
+            <h2>ÐÑÑÐ°Ð»Ð¸ÑÑ Ð²Ð¾Ð¿ÑÐ¾ÑÑ?</h2>
+            <p class="caption">Ð¡Ð»ÐµÐ´Ð¸ÑÐµ Ð·Ð° Ð½Ð°Ð¼Ð¸ Ð² ÑÐ¾Ñ ÑÐµÑÑÑ</p>
+            <div class="social-grid">
+                <div class="item">
+                    <div class="iconbox">
+                        <div class="icon-wrap">
+                            <i class="icon icon-facebook"></i>
+                        </div>
+                        <span>Facebook</span>
+                    </div>
+                    <span class="url">@uzumtezkor</span>
+                    <i class="icon icon-arrow-right-up"></i>
+                    <a href="https://www.facebook.com/uzumtezkor" target="_blank" rel="noreferrer noopener"></a>
+                </div>
+                <div class="item">
+                    <div class="iconbox">
+                        <div class="icon-wrap">
+                            <i class="icon icon-ri_instagram-fill"></i>
+                        </div>
+                        <span>Instagram</span>
+                    </div>
+                    <span class="url">@Uzum.Tezkor</span>
+                    <i class="icon icon-arrow-right-up"></i>
+                    <a href="https://www.instagram.com/Uzum.Tezkor/" target="_blank" rel="noreferrer noopener"></a>
+                </div>
+                <div class="item">
+                    <div class="iconbox">
+                        <div class="icon-wrap">
+                            <i class="icon icon-telegram"></i>
+                        </div>
+                        <span>Telegram</span>
+                    </div>
+                    <span class="url">@UzumTezkor</span>
+                    <i class="icon icon-arrow-right-up"></i>
+                    <a href="https://t.me/UzumTezkor" target="_blank" rel="noreferrer noopener"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="wrapper">
+        <a href="#" class="logo">
+            <img width="165.45pxpx" height="56px" src="img/Logo.svg" class="logo_default" alt="">
+        </a>
+        <p>Ð¢ÐµÐ».: <a href="tel:+998787770156">+998 (78) 777-01-56</a> email: <a
+                href="mailto:care@uzum.com">care@uzum.com</a> <br/>ÐÐ´ÑÐµÑ: Ð£Ð·Ð±ÐµÐºÐ¸ÑÑÐ°Ð½, 100047, Ð³. Ð¢Ð°ÑÐºÐµÐ½Ñ,
+            ÐÐ¸ÑÐ°Ð±Ð°Ð´ÑÐºÐ¸Ð¹
+            ÑÐ°Ð¹Ð¾Ð½, ÐÐ¾Ð»Ð°Ð·Ð¾Ñ Ð¶/Ð¼, Ð¤Ð¸Ð´Ð¾ÐºÐ¾Ñ, 30<br/>ÐÐ ÐÐÐ Â«UZUM TezkorÂ»</p>
+
+        <p class="docs-links-list">
+            <a class="docs-link" href="https://uzumtezkor.uz/terms-of-use" target="_blank"
+               rel="noreferrer noopener">ÐÐ¾Ð»ÑÐ·Ð¾Ð²Ð°ÑÐµÐ»ÑÑÐºÐ¾Ðµ ÑÐ¾Ð³Ð»Ð°ÑÐµÐ½Ð¸Ðµ</a>
+            <a class="docs-link" href="https://uzumtezkor.uz/promo" target="_blank"
+               rel="noreferrer noopener">ÐÐºÑÐ¸Ð¸</a>
+            <a class="docs-link" href="https://uzumtezkor.uz/promocodes" target="_blank"
+               rel="noreferrer noopener">ÐÑÐ°Ð²Ð¸Ð»Ð° Ð¸ÑÐ¿Ð¾Ð»ÑÐ·Ð¾Ð²Ð°Ð½Ð¸Ñ Ð¿ÑÐ¾Ð¼Ð¾ÐºÐ¾Ð´Ð¾Ð²</a>
+        </p>
+    </div>
+</footer>
+
+<script charset="utf-8" type="text/javascript" src="js/nav.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/form.js"></script>
+</body>
+
+Response headers: {'Server': 'nginx', 'Date': 'Tue, 09 Apr 2024 10:01:15 GMT', 'Content-Type': 'text/html', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'Last-Modified': 'Thu, 04 Apr 2024 12:39:05 GMT', 'ETag': 'W/"660e9f69-4ca4"', 'Cache': 'HIT', 'X-Cached-Since': '2024-04-07T13:07:15+00:00', 'X-Node': 'm9-up-gc98', 'Content-Encoding': 'gzip'}
+Response cookies: {}
+
+-----

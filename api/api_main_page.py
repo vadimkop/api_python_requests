@@ -9,8 +9,8 @@ class ApiMainPage:
 
     @staticmethod
     def get_uz_local(url):
-        return BaseMethods.get_method(f"{url}/uz")
+        return BaseMethods.get_method(f"{url}uz")
 
     @staticmethod
     def get_ru_local(url):
-        return BaseMethods.get_method(f"{url}/ru")
+        return BaseMethods.get_method(f"{url}ru")
